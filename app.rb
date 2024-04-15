@@ -13,3 +13,5 @@ require_relative 'models/product'
 
 # Load routes
 require_relative 'routes/index'
+
+run Sinatra::Application
