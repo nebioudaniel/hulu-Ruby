@@ -1,3 +1,9 @@
+require 'sinatra'
+require 'json'
+
+# Define Product model and database setup (assuming ActiveRecord or similar ORM)
+
+# Define routes
 get '/api/products' do
   content_type :json
   products = Product.all
